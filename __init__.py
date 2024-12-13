@@ -27,6 +27,8 @@ if not log.handlers:
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "comfy"))
 
 
+log.warning("You are using UNMAINTAINED NODES. Please migrate to a supported version of Prompt Control")
+
 NODE_CLASS_MAPPINGS.update(
     {
         "PromptControlSimple": PromptControlSimple,
