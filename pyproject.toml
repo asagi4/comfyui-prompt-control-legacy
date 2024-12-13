@@ -3,7 +3,6 @@ name = "comfyui-prompt-control-legacy"
 description = "Legacy prompt control nodes. These exist only to allow old workflows to run"
 version = "1.2.2"
 license = { file = "LICENSE" }
-# some lark versions older than 1.1.9 apparently have a bug that breaks things, see https://github.com/asagi4/comfyui-prompt-control/issues/35
 dependencies = ["lark >= 1.1.9"]
 
 [project.urls]
